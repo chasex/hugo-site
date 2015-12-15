@@ -1,4 +1,4 @@
-baseurl = "chasex.github.io"
+baseurl = "/"
 languageCode = "en-us"
 title = "Chasex's Blog"
 # Enable comments by entering your Disqus shortname
@@ -39,12 +39,12 @@ theme = "hugo-icarus-theme"
 [[params.menu]]
     before = false
     label  = "Tags"
-    link   = "tags/"
+    link   = "/tags/"
 
 [[params.menu]]
     before = false
     label  = "Categories"
-    link   = "categories/"
+    link   = "/categories/"
 
 # Enter a link for the follow button on the left
 [params.profile]
