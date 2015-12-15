@@ -1,3 +1,6 @@
 [submodule "themes/hugo-icarus-theme"]
 	path = themes/hugo-icarus-theme
 	url = https://github.com/chasex/hugo-icarus-theme.git
+[submodule "public"]
+	path = public
+	url = https://github.com/chasex/chasex.github.io.git
