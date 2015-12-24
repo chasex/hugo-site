@@ -38,12 +38,12 @@ theme = "hugo-icarus-theme"
 
 [[params.menu]]
     before = false
-    label  = "Tags"
+    label  = "Tag"
     link   = "/tags/"
 
 [[params.menu]]
     before = false
-    label  = "Categories"
+    label  = "Category"
     link   = "/categories/"
 
 # Enter a link for the follow button on the left

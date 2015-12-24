@@ -1,13 +1,18 @@
 +++
-date = "2015-12-02T22:45:43+02:00"
-title = "Go Receiver的隐式转化"
-tags = ["Go"]
-images = []
+banner = ""
 categories = ["Programming"]
+date = "2015-12-02T22:45:43+02:00"
+images = []
+menu = ""
+tags = ["Go"]
+title = "Go Receiver的隐式转化"
+
 +++
 
 最近在读`The Go Programming Language`，第6章提到了method receiver的隐式转化。
 这是初学Go比较令人困惑的地方，之前做项目也有犯类似错误，故在此归纳记录一下。
+
+<!--more-->
 
 在Go中method的receiver要么是自定义类型，要么是指向自定义类型的指针。
 ~~~C
@@ -74,9 +79,6 @@ func main() {
 
     m2.String()
     m2.Set("new message")
-
-    fmt.Println(m1)
-    fmt.Println(m2)
 
     var _ Interface = m1    // compile error
     var _ Interface = m2

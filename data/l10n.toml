@@ -27,13 +27,13 @@
     subtitle = "The content you're looking for doesn't seem to exist."
 
 [widgets.categories]
-    title = "Categories"
+    title = "Category"
 
 [widgets.recent_articles]
-    title = "Recents"
+    title = "Recent Posts"
 
 [widgets.tag_cloud]
     title = "Tag cloud"
 
 [widgets.tags]
-    title = "Tags"
+    title = "Tag"
